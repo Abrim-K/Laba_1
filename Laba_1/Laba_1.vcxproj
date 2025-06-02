@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="fun.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt" />
