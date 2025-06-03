@@ -1,14 +1,24 @@
 #pragma once
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include <string>
+#include <sstream>
 using namespace std;
 
-char toup(char c) {
-	if ((c >= 'a') and (c <= 'z')) {
-		return c - ('a' - 'A');
-	}
-}
+char toup(char c);
+
+
+void inputMatrix(vector<vector<int>>& matrix, int m, int n);
+
+
+void writeMatricesToFile(const string& filename, const vector<vector<vector<int>>>& matrices);
+
+
+void readMatricesFromFile(const string& filename, vector<vector<vector<int>>>& matrices);
+
+
+void printMatrices(const vector<vector<vector<int>>>& matrices);
 
 
 struct birthday {
@@ -81,3 +91,4 @@ istream& operator >> (istream& in, people& people) {
 	people.kvartira = kvartira;
 	return in;
 }
+

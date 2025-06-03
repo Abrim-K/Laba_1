@@ -21,6 +21,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Fun.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Binar.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt">
@@ -53,10 +59,33 @@
     <Text Include="new_5.txt">
       <Filter>Data</Filter>
     </Text>
+    <Text Include="old_6.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="old_7.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="new_7.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="old_10.dat">
+      <Filter>Data</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fun.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Binar.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="new_8.dat">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="old_9.dat">
+      <Filter>Data</Filter>
+    </None>
   </ItemGroup>
 </Project>

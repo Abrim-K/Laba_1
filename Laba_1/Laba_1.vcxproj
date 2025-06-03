@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fun.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Binar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt" />
@@ -137,12 +139,21 @@
     <Text Include="new_4-2.txt" />
     <Text Include="new_4-1.txt" />
     <Text Include="new_5.txt" />
+    <Text Include="new_7.txt" />
+    <Text Include="old_10.dat" />
     <Text Include="old_3.txt" />
     <Text Include="old_4.txt" />
     <Text Include="old_5.txt" />
+    <Text Include="old_6.txt" />
+    <Text Include="old_7.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fun.h" />
+    <ClInclude Include="Binar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="new_8.dat" />
+    <None Include="old_9.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
